@@ -1,0 +1,119 @@
+.login-main-container{
+    width: 100vw;
+    height: 100vh;
+    background: #232234
+}
+.login-box {
+    height: 200px;
+    margin: auto;
+    position: relative;
+    top: calc(30% - 100px);
+    width: 460px;
+}
+.login-logo-div {
+    float: left;
+    margin-bottom: 5px;
+    position: relative;
+    width: 100%;
+}
+.login-logo-div img{
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.signupBtn {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #232234;
+    float: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 96%;
+    cursor: pointer;
+    left: 5.5%;
+}
+
+.loginBtn {
+    background: none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    float: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    width: 96%;
+    cursor: pointer;
+    left: 5.5%;
+}
+.signupModalDialog{
+    border-radius: 0;
+    left: 20px;
+    top: calc(35% - 50px);
+    width: 370px;
+}
+.signupModalContent{
+    border-radius: 0;
+}
+
+.signupModalContent .modal-header{
+    border-bottom: 0px !important;
+}
+
+.form-deails-div-login {
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.form-deails-div-login label {
+    color: #464646;
+    float: left;
+    font-family: Arial;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+}
+.form-deails-div-login input {
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    height: 35px;
+    position: relative;
+    width: 100%;
+    padding-left: 26px;
+}
+.signupNextCls span {
+    background: #222233 none repeat scroll 0 0;
+    border-radius: 14px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400 !important;
+    opacity: 1 !important;
+    padding: 3px 18px;
+    position: relative;
+    top: -7px;
+}
+.signupNextCls {
+    opacity: 1 !important;
+}
+.title-signup {
+    color: #313131;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+}
+.form-deails-div-login i {
+    color: #ccc;
+    float: left;
+    font-size: 19px;
+    left: 5px;
+    position: relative;
+    top: -28px;
+}
